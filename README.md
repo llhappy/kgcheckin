@@ -52,7 +52,7 @@ GitHub Actions 实现 `酷狗概念VIP` 自动签到，每天领取总计 `两�
 
    3.2 手机号登录
 
-   添加手机号到 Secret `PHONE`，运行 Actions `手机号登录`，操作步骤选择「发送验证码」获取验证码，把验证码添加到 Secret `CODE`；再次运行 Actions `手机号登录`，操作步骤选择「登录」即可。
+   添加手机号到 Secret `PHONE`，运行 Actions `手机号登录`，操作步骤选择「发送验证码」获取验证码，把验证码添加到 Secret `代码`；再次运行 Actions `手机号登录`，操作步骤选择「登录」即可。
 
 1. 启用 Actions `签到`，每天凌晨北京时间 01:10 自动签到（可在 `签到.yml` 中设置 cron）。安排在凌晨可抢在手动领取之前，避免与 APP 内领取当天青春版 VIP 名额冲突。启用 Actions `仓库保活` 以保证签到可以长期执行。
 
@@ -105,6 +105,11 @@ API源代码来自 [MakcRe/KuGouMusicApi](https://github.com/MakcRe/KuGouMusicAp
    ![步骤四](./imgs/步骤四.jpg)
 
 ## 致谢
+
+
+
+
+
 
 - 感谢 [@MakcRe](https://github.com/MakcRe) 提供 API 源代码
 - 感谢 [@itfw](https://github.com/itfw) 提供二维码显示问题的解决方案
